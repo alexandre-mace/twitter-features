@@ -1,0 +1,61 @@
+body {
+    background-color: #f4f4f4;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: sans-serif;
+}
+.feature {
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    padding: 15px 30px;
+    border: none;
+    color: #28bc83;
+    margin-top: 50px;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.feature:hover {
+    color: white;
+    background-color: #28bc83;
+}
+.d-flex {
+    display: flex;
+}
+.retweet::before {
+    content: '\f079';
+    color: #28bc83;
+    position: absolute;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-variant: normal;
+    font-size: 2em;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    left: 15px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+img {
+    width: 100%;
+    height: auto;
+}
+article {
+    background-color: white;
+    border: 2px solid #28bc83;
+    display: flex;
+    position: relative;
+    padding: 20px;
+    padding-left: 70px;
+    margin: 50px;
+    border-radius: 10px;
+}
+article div:first-child {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
